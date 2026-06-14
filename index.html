@@ -10,10 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
 <style>
 :root {
-  --space-900: #0d0720;
-  --space-800: #130b2e;
-  --space-700: #1a1040;
-  --space-600: #221452;
+  --space-900: #020b18;
+  --space-800: #041220;
+  --space-700: #071a2e;
+  --space-600: #0a2540;
   --teal-500: #0d9488;
   --teal-400: #14b8a6;
   --teal-300: #2dd4bf;
@@ -35,7 +35,7 @@
   --text-primary: #f0f9ff;
   --text-secondary: #94a3b8;
   --text-accent: #2dd4bf;
-  --card-bg: rgba(26, 16, 64, 0.75);
+  --card-bg: rgba(7, 26, 46, 0.75);
   --card-border: rgba(45, 212, 191, 0.18);
   --font-display: "Playfair Display", Georgia, serif;
   --font-body: "Space Grotesk", system-ui, sans-serif;
@@ -72,7 +72,7 @@ ul { list-style: none; }
   transition: background var(--transition), backdrop-filter var(--transition);
 }
 #navbar.scrolled {
-  background: rgba(13, 7, 32, 0.96);
+  background: rgba(2, 11, 24, 0.94);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(45, 212, 191, 0.15);
 }
@@ -92,7 +92,7 @@ ul { list-style: none; }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--teal-300); border-radius: 2px; }
 @media (max-width: 768px) {
   .hamburger { display: flex; }
-  .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: rgba(13,7,32,0.98); flex-direction: column; padding: 1.5rem; gap: 1.2rem; border-bottom: 1px solid var(--card-border); }
+  .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: rgba(2,11,24,0.97); flex-direction: column; padding: 1.5rem; gap: 1.2rem; border-bottom: 1px solid var(--card-border); }
   .nav-links.open { display: flex; }
 }
 
@@ -121,10 +121,10 @@ ul { list-style: none; }
   position: absolute; inset: 0;
   background:
     linear-gradient(135deg,
-      rgba(13, 7, 32, 0.85) 0%,
-      rgba(20, 10, 50, 0.55) 40%,
-      rgba(30, 15, 70, 0.45) 70%,
-      rgba(13, 7, 32, 0.80) 100%
+      rgba(2, 11, 24, 0.82) 0%,
+      rgba(4, 18, 38, 0.55) 40%,
+      rgba(7, 26, 60, 0.45) 70%,
+      rgba(2, 11, 24, 0.78) 100%
     );
 }
 /* Vibrant accent glows */
@@ -533,6 +533,7 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
       <a href="https://orcid.org/0000-0001-9532-7046" target="_blank" class="social-link" title="ORCID">
         <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor"><path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zm-15.7 75.4h-14.1V180h14.1V75.4zm36.4 0h-13.5V180h41.8c33.5 0 55.7-21.5 55.7-52.8 0-30.4-22.2-51.8-55.7-51.8h-28.3zm13.5 93.3h-13.7V86.7h13.7c24.6 0 40.7 15.1 40.7 41 0 25.2-16.1 41-40.7 41zm-79.7-132.4c-5.5 0-9.9 4.5-9.9 9.9 0 5.5 4.4 9.9 9.9 9.9s9.9-4.4 9.9-9.9c0-5.4-4.4-9.9-9.9-9.9z"/></svg>
       </a>
+      <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=0EHdE3MAAAAJ" target="_blank" class="social-link" title="Google Scholar">GS</a>
       <a href="mailto:wiftikhar128@gmail.com" class="social-link" title="Email">
         <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
       </a>
@@ -560,7 +561,7 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
         <div class="about-stats">
           <div class="stat-card"><span class="stat-num">5+</span><span class="stat-label">Years Experience</span></div>
           <div class="stat-card"><span class="stat-num">3.72</span><span class="stat-label">MS CGPA / 4.0</span></div>
-          <div class="stat-card"><span class="stat-num">2</span><span class="stat-label">Publications</span></div>
+          <div class="stat-card"><span class="stat-num">1</span><span class="stat-label">Publication</span></div>
           <div class="stat-card"><span class="stat-num">10+</span><span class="stat-label">Major Projects</span></div>
         </div>
       </div>
@@ -694,7 +695,7 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
       <div class="research-card reveal reveal-delay-2"><div class="research-icon">🤖</div><div class="research-title">Big Data, Machine Learning, and UAV Applications in Remote Sensing Workflows</div></div>
       <div class="research-card reveal reveal-delay-3"><div class="research-icon">🌊</div><div class="research-title">Disaster Risk Management, Flood Mapping, and Renewable Energy Resource Assessment</div></div>
       <div class="research-card reveal"><div class="research-icon">🌾</div><div class="research-title">AI-Driven Remote Sensing for Agriculture, Crop Monitoring, and Yield Forecasting</div></div>
-
+      <div class="research-card reveal reveal-delay-1"><div class="research-icon">📡</div><div class="research-title">GRACE/GRACE-FO Groundwater Storage Anomaly Detection and Basin-scale Hydrology</div></div>
     </div>
   </div>
 </section>
@@ -705,7 +706,7 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
 <section id="publications">
   <div class="section-inner">
     <div class="section-label">Research Output</div>
-    <h2 class="section-heading">Publications</h2>
+    <h2 class="section-heading">Publications &amp; Research</h2>
     <p class="section-sub">Contributing to peer-reviewed science at the intersection of geospatial modeling and environmental monitoring.</p>
     <div class="pub-list">
       <div class="card pub-card reveal">
@@ -723,7 +724,6 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -744,12 +744,12 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
         <div class="project-tags"><span class="ptag">ArcPy</span><span class="ptag">Sentinel</span><span class="ptag">VPF/TDS</span><span class="ptag">Python</span><span class="ptag">ArcGIS Pro</span></div>
       </div>
       <div class="card project-card project-card-featured reveal reveal-delay-1">
-        <div class="project-header"><div class="project-icon">☀️</div><div class="project-links"></div></div>
-        <div class="project-title">Agriculture Drought Monitoring &amp; Hazard Assessment — Sindh (GEE)</div>
-        <p class="project-desc">Comprehensive drought monitoring and hazard assessment for the Sindh province using multi-temporal satellite data on Google Earth Engine. Derived drought indices (SPI, NDVI anomalies, LST) to map agricultural stress zones, supporting early warning systems and food security decision-making.</p>
-        <div class="project-tags"><span class="ptag">GEE</span><span class="ptag">MODIS</span><span class="ptag">SPI</span><span class="ptag">NDVI</span><span class="ptag">Drought Index</span></div>
+        <div class="project-header"><div class="project-icon">🌊</div><div class="project-links"></div></div>
+        <div class="project-title">GRACE Groundwater Storage Analysis — Indus Basin</div>
+        <p class="project-desc">Spatiotemporal analysis of groundwater depletion using GRACE/GRACE-FO total water storage anomaly data. Integrates GLDAS model layers to isolate groundwater signal, highlighting seasonal and long-term storage trends for Pakistan's water security.</p>
+        <div class="project-tags"><span class="ptag">GRACE</span><span class="ptag">GEE</span><span class="ptag">Python</span><span class="ptag">GLDAS</span><span class="ptag">Hydrology</span></div>
       </div>
-      <div class="card project-card project-card-featured reveal reveal-delay-2">
+      <div class="card project-card reveal reveal-delay-2">
         <div class="project-header"><div class="project-icon">🌾</div><div class="project-links"></div></div>
         <div class="project-title">Advanced Crop Mapping with GEE + ML</div>
         <p class="project-desc">Integrated Sentinel-1 SAR and Sentinel-2 optical data with Random Forest and CNN models for near-real-time crop monitoring and yield forecasting. Automated workflows in Python &amp; GEE, reducing manual processing by 50%.</p>
@@ -768,10 +768,10 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
         <div class="project-tags"><span class="ptag">Sentinel-1 SAR</span><span class="ptag">GEE</span><span class="ptag">Change Detection</span><span class="ptag">Disaster RS</span></div>
       </div>
       <div class="card project-card reveal reveal-delay-2">
-        <div class="project-header"><div class="project-icon">🏙️</div><div class="project-links"></div></div>
-        <div class="project-title">Cadastral Mapping — Punjab Divisions (Survey of Pakistan)</div>
-        <p class="project-desc">Led cadastral mapping for the Survey of Pakistan to modernize land management across Punjab Divisions. Supervised teams delivering high-accuracy land parcel surveys, modeled parcel fabric, and automated cadastral workflows to enhance data accuracy, accessibility, and government transparency.</p>
-        <div class="project-tags"><span class="ptag">Cadastral Mapping</span><span class="ptag">ArcGIS</span><span class="ptag">Land Records</span><span class="ptag">Surveying</span></div>
+        <div class="project-header"><div class="project-icon">🗺️</div><div class="project-links"><a href="https://github.com/Muhammad-Waqas5012/Pakistan_Village_Shapefile" target="_blank" class="proj-link" title="GitHub"><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a></div></div>
+        <div class="project-title">Pakistan Village-Level Shapefiles (Open Data)</div>
+        <p class="project-desc">Open-source geodataset providing village-level administrative shapefiles for districts in Punjab, Pakistan. Useful for socio-demographic research, development planning, and policy analysis.</p>
+        <div class="project-tags"><span class="ptag">Open GIS Data</span><span class="ptag">Shapefile</span><span class="ptag">Pakistan Admin</span><span class="ptag">QGIS</span></div>
       </div>
       <div class="card project-card reveal">
         <div class="project-header"><div class="project-icon">🌫️</div></div>
@@ -838,6 +838,7 @@ footer { background: var(--space-900); border-top: 1px solid rgba(45,212,191,0.1
             <div class="contact-item-icon"><svg width="18" height="18" viewBox="0 0 256 256" fill="#a3e635"><path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zm-15.7 75.4h-14.1V180h14.1V75.4zm36.4 0h-13.5V180h41.8c33.5 0 55.7-21.5 55.7-52.8 0-30.4-22.2-51.8-55.7-51.8h-28.3zm13.5 93.3h-13.7V86.7h13.7c24.6 0 40.7 15.1 40.7 41 0 25.2-16.1 41-40.7 41zm-79.7-132.4c-5.5 0-9.9 4.5-9.9 9.9 0 5.5 4.4 9.9 9.9 9.9s9.9-4.4 9.9-9.9c0-5.4-4.4-9.9-9.9-9.9z"/></svg></div>
             <div><div class="contact-item-label">ORCID</div><div class="contact-item-value">0000-0001-9532-7046</div></div>
           </a>
+          <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=0EHdE3MAAAAJ" target="_blank" class="contact-item"><div class="contact-item-icon">🎓</div><div><div class="contact-item-label">Google Scholar</div><div class="contact-item-value">View Research Profile</div></div></a>
           <div class="contact-item"><div class="contact-item-icon">📍</div><div><div class="contact-item-label">Location</div><div class="contact-item-value">Riyadh, Saudi Arabia · Open to Relocation (Europe)</div></div></div>
         </div>
       </div>
